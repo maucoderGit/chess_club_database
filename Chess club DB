@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-13T17:06:33.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="eN5s8irLyQmZH_1mX2MB" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-13T17:08:14.985Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="yJeTn6E8205ua7jRE7li" version="17.1.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1718" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1718" dy="1624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -160,7 +160,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="flgfT2fNIkFIBX86PzlN-15" value="FIDE" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="102.5" width="180" height="195" as="geometry" />
+          <mxGeometry x="-160" y="102.5" width="180" height="195" as="geometry" />
         </mxCell>
         <mxCell id="flgfT2fNIkFIBX86PzlN-16" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="flgfT2fNIkFIBX86PzlN-15">
           <mxGeometry y="30" width="180" height="25" as="geometry" />
@@ -215,7 +215,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="flgfT2fNIkFIBX86PzlN-28" value="Players" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="-140" y="330" width="250" height="160" as="geometry" />
+          <mxGeometry x="120" y="-80" width="250" height="160" as="geometry" />
         </mxCell>
         <mxCell id="flgfT2fNIkFIBX86PzlN-29" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="flgfT2fNIkFIBX86PzlN-28">
           <mxGeometry y="30" width="250" height="30" as="geometry" />
@@ -239,6 +239,35 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="flgfT2fNIkFIBX86PzlN-34" value="Tournaments_id: FK&#xa;tournament_rank_id: int not null&#xa;status: check(&quot;active&quot;, &quot;inactive&quot;)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="flgfT2fNIkFIBX86PzlN-32">
+          <mxGeometry x="30" width="220" height="90" as="geometry">
+            <mxRectangle width="220" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flgfT2fNIkFIBX86PzlN-35" value="Referee" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="-80" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="flgfT2fNIkFIBX86PzlN-36" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="flgfT2fNIkFIBX86PzlN-35">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="flgfT2fNIkFIBX86PzlN-37" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" vertex="1" parent="flgfT2fNIkFIBX86PzlN-36">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flgfT2fNIkFIBX86PzlN-38" value="id" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="flgfT2fNIkFIBX86PzlN-36">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flgfT2fNIkFIBX86PzlN-39" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="flgfT2fNIkFIBX86PzlN-35">
+          <mxGeometry y="60" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="flgfT2fNIkFIBX86PzlN-40" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="flgfT2fNIkFIBX86PzlN-39">
+          <mxGeometry width="30" height="90" as="geometry">
+            <mxRectangle width="30" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flgfT2fNIkFIBX86PzlN-41" value="Tournaments_id: FK&#xa;Fide_title: VARCHAR(30) NOT NULL&#xa;status: check(&quot;active&quot;, &quot;inactive&quot;)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="flgfT2fNIkFIBX86PzlN-39">
           <mxGeometry x="30" width="220" height="90" as="geometry">
             <mxRectangle width="220" height="90" as="alternateBounds" />
           </mxGeometry>
